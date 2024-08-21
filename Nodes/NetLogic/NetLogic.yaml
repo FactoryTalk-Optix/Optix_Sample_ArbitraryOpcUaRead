@@ -1,0 +1,17 @@
+Name: NetLogic
+Type: NetLogicCategoryFolder
+Children:
+- Name: OpcUaTools
+  Id: g=96d8b5c39aaafac9f76e4eedeb4a417a
+  Type: NetLogic
+  Children:
+  - Class: Method
+    Name: ReadArbitraryValueFromRemoteOpcUaServer
+    Children:
+    - Name: ns=0;InputArguments
+      Type: BaseVariableType
+      DataType: Argument
+      ReferenceType: HasProperty
+      ValueRank: OneDimension
+      ArrayDimensions: [0]
+      Value: [{"TypeId":{"Id":296},"Body":{"Name":"nameSpaceIndex","DataType":{"Id":6},"ValueRank":-1,"ArrayDimensions":[],"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}},{"TypeId":{"Id":296},"Body":{"Name":"identifier","DataType":{"Id":7},"ValueRank":-1,"ArrayDimensions":[],"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}]
